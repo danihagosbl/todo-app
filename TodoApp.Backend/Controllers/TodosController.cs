@@ -15,6 +15,7 @@ namespace TodoApp.Backend.Controllers
         [HttpGet]
         public IActionResult Get()
         {
+            //sample data source
             List<Todo> _todoList = new List<Todo>();
 
             _todoList.Add(new Todo
